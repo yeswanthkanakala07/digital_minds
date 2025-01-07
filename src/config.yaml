@@ -9,9 +9,9 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: 'Digital Minds Consulting'
     template: '%s'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F680 Digital Minds Consulting is a digital marketing agency that helps businesses grow online. We offer SEO, PPC, Social Media, Web Design, and more."
   robots:
     index: true
     follow: true
