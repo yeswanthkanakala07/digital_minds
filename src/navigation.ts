@@ -103,8 +103,8 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
-      href: '#',
+      text: 'Contact Us',
+      href: getPermalink('/contact'),
     },
   ],
  
