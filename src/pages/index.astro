@@ -13,7 +13,7 @@ import Brands from '~/components/widgets/Brands.astro';
 
 
 const metadata = {
-  title: 'Digital Minds Consulting',
+  title: 'Digital Minds Consulting, LLC.',
 };
 ---
 
@@ -21,7 +21,7 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="Add a touch of magic to your online presence"
+    tagline="Innovate. Transform. Succeed."
     actions={[
       {
         variant: 'primary',
@@ -32,18 +32,12 @@ const metadata = {
       },
       { text: 'Learn more', href: '#features' },
     ]}
+    style="background-color: transparent;"
   >
-  <Fragment slot="title">
-    Elevate your <span class="text-accent dark:text-white highlight">Digital Minds</span> 
+  <Fragment slot="title" >
+    Elevate your <span class="text-accent dark:text-blue highlight">Digital Minds</span> 
     with our comprehensive online solutions.
   </Fragment>
-  
-
-    <Fragment slot="subtitle">
-      Step into the spotlight with <span class="font-semibold">Astrowind</span> templates, your pathway to fortifying your
-      startup's digital footprint, fostering credibility, and expanding your reach.
-    </Fragment>
-
     <!-- <Fragment slot="image">
       <YouTube id="gxBkghlglTg" title="Astro just Launched.... Could it be the ultimate web framework?" />
       <style is:inline>
@@ -53,44 +47,42 @@ const metadata = {
         }
       </style>
     </Fragment> -->
-   
-      <Fragment slot="image">
-        <div class="map-container relative w-full h-[400px] rounded-xl overflow-hidden">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.123456789012!2d-118.410468684789!3d34.256789123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29b1234567890%3A0x1234567890abcdef!2s9650%20Pine%20Orchard%20St%2C%20Pacoima%2C%20CA%2091331%2C%20USA!5e0!3m2!1sen!2sus!4v1704727771099!5m2!1sen!2sus"
-            width="100%"
-            height="100%"
-            style="border:0;"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            class="absolute inset-0"
-          ></iframe>
-        </div>
-        <style is:inline>
-          .map-container {
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-          }
-        </style>
-      </Fragment>
-
-    
-
+  
   </Hero>
 
   <!-- Features2 Widget ************** -->
 
   <Features2
     title="About us"
-    subtitle="We believe in the magic of turning dreams into stunning realities. Founded by passionate developers with a shared vision, we set out to simplify the website creation process. Our templates bring together the innovation of Astro 5.0 and the versatility of Tailwind CSS, enabling you to express your unique brand identity like never before."
+    subtitle="At Digital Minds Consulting, LLC, we are passionate about empowering individuals to achieve their professional goals. Our comprehensive placement services are designed to provide the guidance, resources, and opportunities necessary for success in today's competitive job market. We believe in the potential of every candidate and are committed to facilitating meaningful connections between talent and industry."
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
 
-    
-
   </Features2>
 
+  <Hero>
+    <Fragment slot="bg">
+      <div class="map-container relative w-full h-[400px] rounded-xl overflow-hidden">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.123456789012!2d-118.410468684789!3d34.256789123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29b1234567890%3A0x1234567890abcdef!2s9650%20Pine%20Orchard%20St%2C%20Pacoima%2C%20CA%2091331%2C%20USA!5e0!3m2!1sen!2sus!4v1704727771099!5m2!1sen!2sus"
+          width="100%"
+          height="100%"
+          style="border:0;"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="absolute inset-0"
+        ></iframe>
+      </div>
+      <style is:inline>
+        .map-container {
+          box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+      </style>
+    </Fragment>
+  </Hero>
+  
   
 
   <!-- Stats Widget ****************** -->
@@ -99,8 +91,8 @@ const metadata = {
     title="Discover the impressive impact of Astrowind"
     subtitle="The numbers below reflect the trust our users have placed in us and the remarkable outcomes we've helped them achieve."
     stats={[
-      { title: 'Downloads', amount: '182K' },
-      { title: 'Websites Launched', amount: '87' },
+      { title: 'Connections', amount: '182K' },
+      { title: 'Employees', amount: '87' },
       { title: 'User Ratings', amount: '4.8' },
       { title: 'Satisfied Clients', amount: '116K' },
     ]}
@@ -158,24 +150,24 @@ const metadata = {
   <Features2
     id="Features2"
     title="What services do we provide?"
-    subtitle="We offer a wide range of website templates that suit various industries and purposes such as business, portfolio, e-commerce, blog, etc."
+    subtitle="Ready to take the next step in your career? Contact us today to learn more about how Digital Minds Consulting, LLC can assist you in achieving your professional objectives."
     items={[
       {
-        title: 'Installation Instructions',
+        title: 'Personalized Career Mentoring',
         description:
-          'Offer clear instructions on how to download the purchased templates and install them on various website platforms or content management systems.',
+          'Offering personalized career mentoring services to help individuals identify their strengths, set goals, and develop a plan for achieving success.',
         icon: 'flat-color-icons:document',
       },
       {
-        title: 'Demo and Previews',
+        title: 'Job Placement Assistance',
         description:
-          'Provide interactive demos and previews that allow customers to see how their chosen template will look and function before making a purchase.',
+          'Providing job placement assistance to help individuals secure employment opportunities that align with their skills and career goals.',
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'Technical Support',
+        title: 'Resume & LinkedIn Optimization',
         description:
-          'Providing customer support for any technical issues related to the templates or their implementation.',
+          'Our experts enhance your professional profiles to capture the attention of recruiters and hiring managers.',
         icon: 'flat-color-icons:voice-presentation',
       },
     ]}
@@ -189,42 +181,44 @@ const metadata = {
 
   <Features
     id="features"
-    title="Main features of our templates"
+    title="Why choose us?"
     subtitle="Possess several key characteristics to effectively cater to the needs of startups and entrepreneurs."
     columns={3}
     items={[
       {
-        title: 'Modern and Professional Design',
+        title: 'Expertise',
         description:
-          'Have a contemporary design that reflects current design trends and gives a professional impression.',
+          'Our team comprises seasoned professionals with deep industry knowledge and a commitment to your success.',
         icon: 'tabler:artboard',
       },
       {
-        title: 'Responsive and Mobile-Friendly',
-        description: 'Adapt seamlessly to different screen sizes and devices to ensure a consistent experience.',
+        title: 'Comprehensive Support',
+        description: 'From the initial consultation to your first day on the job, we provide continuous support throughout your job search journey.',
         icon: 'tabler:picture-in-picture',
       },
       {
-        title: 'Customizability',
+        title: 'Customized Approach',
         description:
-          'Easily customizable, allowing users to adapt the design, colors, typography, and content to match their brand identity.',
+          'Understanding that each individual\'s career path is unique, we tailor our services to meet your specific needs and aspirations.',
         icon: 'tabler:adjustments-horizontal',
       },
       {
-        title: 'Fast Loading Times',
-        description: 'Optimized for speed to ensure a smooth user experience and favorable search engine rankings.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Industry Connections',
         description:
-          'Incorporate SEO best practices in template structure and code to improve visibility in search engine results.',
-        icon: 'tabler:arrows-right-left',
+          'Leveraging our extensive network of industry connections, we help you access exclusive job opportunities and connect with top employers.',
+        icon: 'tabler:briefcase',
       },
       {
-        title: 'Compatibility',
-        description: 'The templates work seamlessly across various content management systems and website builders.',
-        icon: 'tabler:plug-connected',
+        title: 'Proven Track Record',
+        description:
+          'With a proven track record of success, we have helped countless individuals secure rewarding job placements and advance their careers.',
+        icon: 'tabler:check',
+      },
+      {
+        title: 'Innovative Solutions',
+        description:
+          'Staying ahead of the curve, we offer innovative solutions and cutting-edge tools to help you stand out in a competitive job market.',
+        icon: 'tabler:rocket',
       },
     ]}
   />
@@ -298,18 +292,20 @@ const metadata = {
           variant: 'link',
         },
       },
+      
       {
-        title: 'Chat with sales',
-        icon: 'tabler:message-circle',
+        title: 'Make an appointment',
+        icon: 'tabler:calendar-event',
         callToAction: {
           target: '_blank',
-          text: 'Start chatting',
+          text: 'Schedule a meeting',
           href: '/',
           variant: 'link',
         },
       },
+    
       {
-        title: 'Chat with support',
+        title: 'Chat with us',
         icon: 'tabler:message-circle',
         callToAction: {
           target: '_blank',
