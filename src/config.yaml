@@ -16,9 +16,9 @@ metadata:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: 'Digital Minds Consulting'
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/image.png'
         width: 1200
         height: 628
     type: website
