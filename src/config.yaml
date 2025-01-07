@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Digital Minds
+  site: 'https://digitalminds.vercel.app'
   base: '/'
   trailingSlash: false
 
