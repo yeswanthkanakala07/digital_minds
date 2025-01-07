@@ -26,19 +26,18 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        target: '_blank',
-        text: 'Get templates',
-        href: 'https://github.com/onwidget/astrowind',
-        icon: 'tabler:download',
+        target: '_self',
+        text: 'Get started',
+        href: '#Features2',
+        icon: 'tabler:rocket',
       },
       { text: 'Learn more', href: '#features' },
     ]}
   >
-    <Fragment slot="title">
-      Improve <span class="hidden sm:inline">the online presence of</span> your <span
-        class="text-accent dark:text-white highlight">Digital Minds</span
-      > with Astrowind templates
-    </Fragment>
+  <Fragment slot="title">
+    Elevate your <span class="text-accent dark:text-white highlight">Digital Minds</span> with our <span class="hidden sm:inline">comprehensive online solutions</span>
+  </Fragment>
+  
 
     <Fragment slot="subtitle">
       Step into the spotlight with <span class="font-semibold">Astrowind</span> templates, your pathway to fortifying your
@@ -130,6 +129,7 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
+    id="Features2"
     title="What services do we provide?"
     subtitle="We offer a wide range of website templates that suit various industries and purposes such as business, portfolio, e-commerce, blog, etc."
     items={[
