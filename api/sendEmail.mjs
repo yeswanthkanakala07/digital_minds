@@ -32,7 +32,7 @@ export default async (req, res) => {
     });
 
     const mailOptions = {
-      from: email,
+      from: `${name} <${email}>`,
       to: 'yeswanth2001kanakala@gmail.com',
       subject: `Contact form submission from ${name}`,
       text: message,
