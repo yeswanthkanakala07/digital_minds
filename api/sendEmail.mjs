@@ -34,7 +34,7 @@ export default async (req, res) => {
     const mailOptions = {
       from: `Website Contact Form <${process.env.EMAIL_USER}>`, // Use your email address
       to: 'yeswanth2001kanakala@gmail.com', // Your email address to receive the message
-      subject: `Contact form submission from ${name}`,
+      subject: `Contact form submission from ${name} (${email})`,
       text: `You have received a new message from ${name} (${email}):\n\n${message}`,
     };
 
