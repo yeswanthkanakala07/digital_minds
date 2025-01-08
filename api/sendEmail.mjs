@@ -13,7 +13,7 @@ export default async (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: 'admin@dmindsconsulting.com',
+    to: 'yaswanth07kanakala@gmail.com',
     subject: `Contact form submission from ${name}`,
     text: message,
   };
