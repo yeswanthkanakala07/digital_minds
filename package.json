@@ -33,6 +33,7 @@
     "astro-icon": "^1.1.4",
     "limax": "4.1.0",
     "lodash.merge": "^4.6.2",
+    "nodemailer": "^6.9.16",
     "unpic": "^3.22.0"
   },
   "devDependencies": {
@@ -66,6 +67,6 @@
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.17.0",
     "unist-util-visit": "^5.0.0",
-    "vercel": "^39.2.6"
+    "vercel": "^32.3.0"
   }
 }
